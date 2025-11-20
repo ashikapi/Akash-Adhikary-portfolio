@@ -3,7 +3,7 @@ import Navbar from './navbar/page'
 import Home from './home/page'
 import Skills from './skill/page'
 import Footer from '@/components/Footer'
-import Contact from './contact/page'
+import SendMessage from './sendmessage/page'
 
 export default function page() {
   return (
@@ -11,7 +11,7 @@ export default function page() {
       <Navbar />
       <div className='mt-10'><Home  /></div>
       <Skills />
-      <Contact />
+      <SendMessage />
       <Footer />
     </div>
   )

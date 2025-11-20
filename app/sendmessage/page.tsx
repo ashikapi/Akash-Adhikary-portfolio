@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Contact() {
+export default function SendMessage() {
   return (
     <div className="w-full bg-white px-20 py-14">
       <div className="w-full bg-[#f4f4f4] p-20 flex justify-between items-start gap-20 rounded-xl border">
