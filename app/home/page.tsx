@@ -7,24 +7,24 @@ import '@/style/animations.css'
 
 export default function Home() {
     return (
-        <div className='w-full pt-10 bg-cover bg-center'
-        style={{backgroundImage: `url('images/bg-image-12.jpg')`}}>
-            <div className=' flex justify-center items-center'>
-                <div className=' px-20'>
-                    <h1 className='text-3xl font-bold pb-6'>Hello</h1>
-                    <h2 className='text-5xl font-bold pb-6'>i’m Akash Adhikary a</h2>
+        <div className='w-full pt-10 bg-cover bg-center sm:flex-none flex justify-center items-center'
+            style={{ backgroundImage: `url('images/bg-image-12.jpg')` }}>
+            <div className='lg:flex lg:justify-center lg:items-center sm:text-start text-center'>
+                <div className='lg:px-20 px-6'>
+                    <h1 className='lg:text-3xl text-xl font-bold md:pb-6 pb-2'>Hello</h1>
+                    <h2 className='lg:text-5xl text-3xl font-bold md:pb-6 pb-2'>i’m Akash Adhikary a</h2>
                     <TypeWriter />
-                    <p className='w-2/3 p-1 text-xl text-[rgb(93,101,112)] pt-6'>A personal portfolio is a collection of your work,
+                    <p className='md:w-2/3 p-1 md:text-xl text-lg text-[rgb(93,101,112)] pt-6'>
+                        A personal portfolio is a collection of your work,
                         achievements, and skills that highlights your
                         abilities and professional growth. It serves as
                     </p>
-
                 </div>
-                <div className='w-1/2 -ml-96 relative'>
-                    <h1 className='w-[600px] text-7xl font-extrabold absolute top-20 animation-up-downU'>UI/UX DESIGNER</h1>
-                    <Image src={profileImage} width={400} height={400} alt="profile image" 
-                    className='z-10 ml-14 relative'/>
-                    <h1 className='w-[600px] text-transparent text-outline stroke-black stroke-2 text-7xl font-extrabold absolute bottom-20 animation-up-downB'>UI/UX DESIGNER</h1>
+                <div className='lg:w-1/2 lg:-ml-96 w-full relative'>
+                    <h1 className='lg:w-[600px] lg:text-7xl text-4xl font-extrabold absolute sm:ml-0 ml-10 top-20 animation-up-downU sm:flex-none flex justify-center items-center'>UI/UX DESIGNER</h1>
+                    <Image src={profileImage} alt="profile image"
+                        className='z-10 lg:w-[400px] lg:h-[600px] w-[250px] h-[350px] lg:ml-14 relative sm:ml-0 ml-16' />
+                    <h1 className='lg:w-[600px] text-transparent text-outline stroke-black stroke-2 lg:text-7xl text-4xl sm:ml-0 ml-10 font-extrabold absolute bottom-20 animation-up-downB'>UI/UX DESIGNER</h1>
                 </div>
             </div>
         </div>

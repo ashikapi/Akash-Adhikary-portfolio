@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter';
 export default function TypeWriter() {
     return (
         <div>
-            <h1 className='lg:text-5xl md:text-2xl sm:text-xl lg:text-left md:text-center text-[#ff014f] font-bold animate__animated animate__fadeInUp animate__delay-2s'>
+            <h1 className='lg:text-5xl md:text-2xl sm:text-xl text-2xl lg:text-left md:text-center text-[#ff014f] font-bold animate__animated animate__fadeInUp animate__delay-2s'>
                 <Typewriter
                     words={[
                         "MERN Stack Developer .",

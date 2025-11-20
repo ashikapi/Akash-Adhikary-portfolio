@@ -18,14 +18,14 @@ export default function Navbar() {
             <div>
                 <Image src={logo} alt='logo' width={80} height={80} />
             </div>
-            <ul className='flex justify-evenly gap-10 items-center font-bold'>
+            <ul className='md:flex hidden justify-evenly gap-10 items-center font-bold'>
                 <li>Home</li>
                 <li>About</li>
                 <li>Skills</li>
                 <li>Projects</li>
                 <li>Contact</li>
             </ul>
-            <div className='flex justify-center text-center items-center gap-4'>
+            <div className='md:flex hidden justify-center text-center items-center gap-4'>
                 {socialInfo.map((social)=>(
                     <a key={social.id} href={social.link} target='_blank' rel='noopener noreferrer' 
                     className='p-2 rounded-full bg-white hover:bg-[#ff014f]
