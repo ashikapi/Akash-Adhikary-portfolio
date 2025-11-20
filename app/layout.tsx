@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Rajdhani } from 'next/font/google';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -10,6 +11,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const rajdhani = Rajdhani({
+  subsets: ['latin'], // Set which subset to use
+  weight: ['700'],    // Set the weight you want, here it is 700
+  variable: '--font-rajdhani', // Optional, you can add it to customize the font in Tailwind
 });
 
 export const metadata: Metadata = {
@@ -25,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${rajdhani.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
