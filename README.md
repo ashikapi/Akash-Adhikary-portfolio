@@ -23,4 +23,4 @@ npm run build
 
 ## 👨‍💻 Author
 
-**Ashik Api**
+**Ashik Api & Akash Adhikary**
