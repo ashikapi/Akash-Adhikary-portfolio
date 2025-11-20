@@ -3,7 +3,9 @@ import React from 'react'
 export default function SendMessage() {
   return (
     <div className="w-full bg-white px-20 py-14">
-      <div className="w-full bg-[#f4f4f4] p-20 flex justify-between items-start gap-20 rounded-xl border">
+      <div className="w-full bg-[#f4f4f4] p-20 flex justify-between items-start gap-20 rounded-xl 
+      border-b-2 border-r-2 border-[#ff014f] hover:border-t-2 hover:border-l-2 hover:border-b-0 hover:border-r-0
+      transition-all transform-3d duration-500 hover:ease-in-out">
 
         {/* Left Content */}
         <div className="w-1/3 space-y-4">
