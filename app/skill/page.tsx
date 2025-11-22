@@ -48,7 +48,7 @@ export default function Skills() {
             <div className='pt-6 pb-10'>
                 <div className='md:flex md:justify-center md:items-center md:gap-20'>
                     <div className='bg-[#f4f4f4] rounded-xl md:px-32 md:py-10'>
-                        <div className='flex md:justify-normal justify-center items-center space-x-6'>
+                        <div className='flex md:justify-normal justify-center items-center sm:pt-0  pt-5 space-x-6'>
                             <h1 className='font-extrabold font-sans md:text-9xl text-6xl text-[#ff014f]'>{experience}</h1>
                             <h2 className='font-bold md:text-5xl text-2xl'>Years Of <br />experience</h2>
                         </div>
