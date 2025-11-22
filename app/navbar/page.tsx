@@ -14,7 +14,7 @@ export default function Navbar() {
     ];
 
   return (
-    <nav className='bg-[#f4f4f4] p-4 h-16 w-full fixed z-20 top-0 opacity-70'>
+    <nav className='bg-[#f4f4f4] md:p-4 md:h-16 w-full fixed z-20 top-0 opacity-70 sm:px-0 sm:py-0 px-10 py-4'>
         <div className='flex md:justify-evenly justify-between items-center'>
             <div>
                 <Image src={logo} alt='logo' width={80} height={80} />
