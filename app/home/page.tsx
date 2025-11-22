@@ -21,10 +21,10 @@ export default function Home() {
                     </p>
                 </div>
                 <div className='lg:w-1/2 lg:-ml-96 w-full relative'>
-                    <h1 className='lg:w-[600px] lg:text-7xl text-4xl font-extrabold absolute sm:ml-0 ml-10 top-20 animation-up-downU sm:flex-none flex justify-center items-center'>UI/UX DESIGNER</h1>
+                    <h1 className='lg:w-[600px] lg:text-7xl text-4xl font-extrabold absolute top-20 sm:left-0 left-1/7 animation-up-downU sm:flex-none flex justify-center items-center'>UI/UX DESIGNER</h1>
                     <Image src={profileImage} alt="profile image"
-                        className='z-10 lg:w-[400px] lg:h-[600px] w-[250px] h-[350px] lg:ml-14 relative sm:ml-0 ml-16' />
-                    <h1 className='lg:w-[600px] text-transparent text-outline stroke-black stroke-2 lg:text-7xl text-4xl sm:ml-0 ml-10 font-extrabold absolute bottom-20 animation-up-downB'>UI/UX DESIGNER</h1>
+                        className='z-10 lg:w-[400px] lg:h-[600px] w-[250px] h-[350px] lg:ml-14 relative sm:left-0 left-1/5' />
+                    <h1 className='lg:w-[600px] text-transparent text-outline stroke-black stroke-2 lg:text-7xl text-4xl sm:left-0 left-1/7 font-extrabold absolute bottom-20 animation-up-downB'>UI/UX DESIGNER</h1>
                 </div>
             </div>
         </div>

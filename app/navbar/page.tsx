@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebookF,FaInstagram ,FaLinkedinIn,FaTwitter } from "react-icons/fa6";
+import { RiMenu3Fill } from "react-icons/ri";
 import { MdViewList } from "react-icons/md";
 import Image from 'next/image';
 import logo from '@/public/images/navbar-logo.webp'
@@ -14,7 +15,7 @@ export default function Navbar() {
     ];
 
   return (
-    <nav className='bg-[#f4f4f4] md:p-4 md:h-16 w-full fixed z-20 top-0 opacity-70 sm:px-0 sm:py-0 px-10 py-4'>
+    <nav className='bg-[#f4f4f4] md:p-4 md:h-16 w-full fixed z-20 top-0  sm:px-0 sm:py-0 px-10 py-4'>
         <div className='flex md:justify-evenly justify-between items-center'>
             <div>
                 <Image src={logo} alt='logo' width={80} height={80} />
@@ -35,6 +36,9 @@ export default function Navbar() {
                         {social.icon}
                     </a>
                 ))}
+            </div>
+            <div className='hidden sm:block'>
+                <button className='text-[#ff014f]'><RiMenu3Fill size={30}/></button>
             </div>
             <div className='sm:hidden block'>
                 <button><MdViewList size={20}/></button>

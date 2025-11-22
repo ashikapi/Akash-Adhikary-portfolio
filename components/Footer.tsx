@@ -94,8 +94,8 @@ export default function Footer() {
 
             {/* Footer Bottom Section */}
             <div className='pt-5 flex justify-between items-center'>
-                <h1 className='sm:text-md text-[8px]'>© Inversweb 2025 | All Rights Reserved</h1>
-                <div className='md:grid grid-cols-3 flex md:gap-10 gap-2 sm:text-md text-[7px]'>
+                <h1 className='sm:text-lg text-[8px]'>© Inversweb 2025 | All Rights Reserved</h1>
+                <div className='md:grid grid-cols-3 flex md:gap-10 gap-2 sm:text-sm text-[7px]'>
                     <h2>Terms & Conditions</h2>
                     <h2>Privacy Policy</h2>
                     <h2>Contact Us</h2>
